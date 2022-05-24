@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Hammar",
+        "description": "Hammer head : 45# carbon steel drop forged, heat treatment , strike surface hardness:45-58HRC.Hammer head fixed by wedge , epoxy glue , sturdy and durable.Material of hammer : 45# carbon steel ,drop forged ",
+        "minimum quantity": "40 piece",
+        "available quantity": "700 piece",
+        "price": "200",
+        "img": "https://i.ibb.co/dmjk8Jc/straight.png"
+    },
+    {
+        "_id": 2,
+        "name": "Crowbar",
+        "description": "It is used as a lever either to force apart two objects or to remove nails.Selected Carbon Steel.Hardened and Tempered.Available with or  Without Grip.Also available in Bigger Sizes.Chisel tipped end.",
+        "minimum quantity": "6 piece",
+        "available quantity": "800 piece",
+        "price": "350",
+        "img": "https://i.ibb.co/LnCb3xc/crowbar.png"
+    },
+    {
+        "_id": 3,
+        "name": "Plastic Handle Hand Saw",
+        "description": "Hand Saw that is used to cut chipboard, block board, plywood, hardboard, timber, etc. and is designed using supreme class basic component and cutting edge technology. This product is recognized for dimensional accuracy, long service life and strong construction. Owing to features, it is widely demanded in the global market.",
+        "minimum quantity": "10 piece",
+        "available quantity": "500 piece",
+        "price": "200",
+        "img": "https://i.ibb.co/f8QLrGb/plastic-handle.png"
+    },
+    {
+        "_id": 4,
+        "name": "Screw Driver",
+        "description": " This screw driver is provided in numerous specifications as per the need of customers. Our screw driver undergoes on stringent test that is performed by our quality experts.Strong & rigid construction.Surpassed quality.Less maintenance",
+        "minimum quantity": "70 piece",
+        "available quantity": "1000 piece",
+        "price": "100",
+        "img": "https://i.ibb.co/8BmQdPD/screw-driver.png"
+    },
+    {
+        "_id": 5,
+        "name": "Adjustable Wrench",
+        "description": "Hardened gripper jaws arranged in parallel.Smooth inside jaws. Spanner gap infinitely variable. Multi-layered insulation according to DIN EN/IEC 60900.Head polished. Base tool chromium-plated.Made of tool steel, forged, oil-hardened",
+        "minimum quantity": "60 piece",
+        "available quantity": "1000 piece",
+        "price": "150",
+        "img": "https://i.ibb.co/sQRDC9m/adjustable-wrench.png"
+    },
+    {
+        "_id": 6,
+        "name": "Blue Point Nose Pilar",
+        "description": "Brand Snap-on Tools. Usage Industrial. Features Strong design. Item Code B95CMP",
+        "minimum quantity": "70 piece",
+        "available quantity": "3000 piece",
+        "price": "170",
+        "img": "https://i.ibb.co/Lt37Hr1/blue-point-nose-pliers.png"
+    }
+]
