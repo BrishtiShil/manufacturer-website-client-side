@@ -3,7 +3,7 @@ import React from 'react';
 const Service = ({ service }) => {
     const { name, description, minimumQuantity, availableQuantity, price, img } = service;
     return (
-        <div class="card lg:max-w-lg btn-ghost bg-base-200 shadow-xl">
+        <div class="card lg:max-w-lg  shadow-xl">
             <figure class="px-10 pt-10">
                 <img src={img} alt="Shoes" class="rounded-xl" />
             </figure>
@@ -14,7 +14,7 @@ const Service = ({ service }) => {
                 <p>Available Quantity :{availableQuantity}</p>
                 <p>{description}</p>
                 <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button class="btn btn-sm btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>
