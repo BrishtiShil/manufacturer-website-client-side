@@ -15,7 +15,7 @@ const Service = ({ service, setDetail }) => {
                 <p>Available Quantity :{availableQuantity}</p>
                 <p>{description}</p>
                 <div className="card-actions">
-                    <Link to="/parchase"><button className="btn btn-sm btn-primary">Buy Now</button></Link>
+                    <Link to="/parchase"><button className="btn btn-sm btn-primary">Parchase</button></Link>
                 </div>
             </div>
         </div>

@@ -9,6 +9,9 @@ import SignUp from './Pages/Login/SignUp';
 import Parchase from './Parchase/Parchase';
 import RequireAuth from './Pages/Login/RequireAuth';
 import MyPortfolio from './Portfolio/MyPortfolio';
+import Dashboard from './Dashboard/Dashboard';
+import MyOrder from './Dashboard/MyOrder';
+import MyReview from './Dashboard/MyReview';
 
 function App() {
   return (
@@ -21,6 +24,14 @@ function App() {
             <Parchase></Parchase>
           </RequireAuth>
         }></Route>
+        <Route path="/dashboard" element={
+          <RequireAuth>
+            <Dashboard></Dashboard>
+          </RequireAuth>
+        }>
+          <Route index element={<MyOrder></MyOrder>}></Route>
+          <Route path='review' element={<MyReview></MyReview>}></Route>
+        </Route>
         <Route path="/myportfolio" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
