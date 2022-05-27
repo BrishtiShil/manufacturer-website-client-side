@@ -1,28 +1,28 @@
 import React from 'react';
 import Summary from './Summary';
-import flag from '../../images/flag.png';
 import client from '../../images/client.png';
-import feedback from '../../images/feedback.png';
+import annual from '../../images/annual.png';
+import review from '../../images/review.png';
 
 const Summaries = () => {
     const summaries = [
         {
             _id: 1,
-            name: "72",
-            description: "Countries",
-            img: flag
+            name: "100+",
+            description: "Customers",
+            img: client
         },
         {
             _id: 2,
-            name: "273+",
-            description: "Happy Clients",
-            img: client
+            name: "120M+",
+            description: "Annual Revenue",
+            img: annual
         },
         {
             _id: 3,
             name: "432+",
-            description: "Feedbacks",
-            img: feedback
+            description: "Reviews",
+            img: review
         }
     ]
     return (
