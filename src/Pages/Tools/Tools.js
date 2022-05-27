@@ -3,6 +3,7 @@ import Service from './Service';
 
 const Tools = () => {
     const [services, setServices] = useState([]);
+    // const [detail, setDetail] = useState([]);
 
     useEffect(() => {
         fetch('http://localhost:5000/service')
@@ -17,6 +18,7 @@ const Tools = () => {
                     services.map(service => <Service
                         key={service._id}
                         service={service}
+                    // setDetail={setDetail}
                     ></Service>)
                 }
             </div>

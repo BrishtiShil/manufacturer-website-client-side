@@ -1,8 +1,17 @@
 # Menages Tools Manufacturer Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Client site:[(https://github.com/facebook/create-react-app)]
 
-## Available tec
+## List of Technologies
+<ol>
+<li>React Router</li>
+<li>React Router hook</li>
+<li>React Firebase hook</li>
+<li>Firebase Authentication</li>
+<li>Mongodb Atlas</li>
+<li>DaisyUI</li>
+<li>Tailwindcss</li>
+<li>Heroku</li>
 
 
 
