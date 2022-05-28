@@ -25,7 +25,11 @@ const MyPortfolio = () => {
                 10 . React Hook from
             </strong></p>
             <h2 class="text-2xl font-bold">My Projects</h2>
-            <p><strong>Live website link : </strong></p>
+            <p><strong>Live website link : </strong>
+                1. https://convention-bootstrap.netlify.app<br />
+                2. https://my-sohor-insta.netlify.app/<br />
+                3. https://shimmering-panda-c7125d.netlify.app/
+            </p>
         </div>
     );
 };
