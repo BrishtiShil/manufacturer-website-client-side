@@ -20,7 +20,7 @@ const Reviews = () => {
         },
         {
             _id: 3,
-            name: "Micle Jack",
+            name: "Michael Jack",
             review: "Very usefull product.",
             img: people3
         }

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Parchase from '../../Parchase/Parchase';
 import Service from './Service';
 
 const Tools = () => {
     const [services, setServices] = useState([]);
-    // const [detail, setDetail] = useState([]);
+    const [product, setProduct] = useState(null);
 
     useEffect(() => {
         fetch('http://localhost:5000/service')
@@ -18,10 +19,11 @@ const Tools = () => {
                     services.map(service => <Service
                         key={service._id}
                         service={service}
-                    // setDetail={setDetail}
+                        setProduct={setProduct}
                     ></Service>)
                 }
             </div>
+            {product && <Parchase product={product}></Parchase>}
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Service = ({ service, setDetail }) => {
+const Service = ({ service, setProduct }) => {
     const { name, description, minimumQuantity, availableQuantity, price, img } = service;
     return (
         <div className="card lg:max-w-lg  shadow-xl">
@@ -15,7 +15,9 @@ const Service = ({ service, setDetail }) => {
                 <p>Available Quantity :{availableQuantity}</p>
                 <p>{description}</p>
                 <div className="card-actions">
-                    <Link to="/parchase"><button className="btn btn-sm btn-primary">Parchase</button></Link>
+                    <Link to="/parchase">
+                        <label for="product-modal" onClick={() => setProduct(service)}
+                            class="btn btn-sm btn-primary modal-button">Parchase</label></Link>
                 </div>
             </div>
         </div>
