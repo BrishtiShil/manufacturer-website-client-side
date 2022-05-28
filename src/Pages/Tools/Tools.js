@@ -7,7 +7,7 @@ const Tools = () => {
     const [product, setProduct] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://boiling-badlands-02194.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
